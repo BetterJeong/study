@@ -1,0 +1,7 @@
+{
+	"account" : "user01",
+	"email" : "steve@gmail.com",
+	"password" : "abcd",
+	"address" : "패스트캠퍼스",
+  	"phone_number" : "000"
+}
