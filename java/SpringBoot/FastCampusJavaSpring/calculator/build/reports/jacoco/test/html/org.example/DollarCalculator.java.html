@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="ko"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>DollarCalculator.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">calculator</a> &gt; <a href="index.source.html" class="el_package">org.example</a> &gt; <span class="el_source">DollarCalculator.java</span></div><h1>DollarCalculator.java</h1><pre class="source lang-java linenums">package org.example;
+
+public class DollarCalculator implements ICalculator{
+<span class="fc" id="L4">    private int price = 1;</span>
+    private MarketApi marketApi;
+
+<span class="fc" id="L7">    public DollarCalculator(MarketApi marketApi) {</span>
+<span class="fc" id="L8">        this.marketApi = marketApi;</span>
+<span class="fc" id="L9">    }</span>
+
+    public void init() {
+<span class="fc" id="L12">        this.price = marketApi.connect();</span>
+<span class="fc" id="L13">    }</span>
+
+    @Override
+    public int sum(int x, int y) {
+<span class="fc" id="L17">        x *= price;</span>
+<span class="fc" id="L18">        y *= price;</span>
+<span class="fc" id="L19">        return x + y;</span>
+    }
+
+    @Override
+    public int minus(int x, int y) {
+<span class="fc" id="L24">        x *= price;</span>
+<span class="fc" id="L25">        y *= price;</span>
+<span class="fc" id="L26">        return x - y;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>
