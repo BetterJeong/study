@@ -4,6 +4,9 @@ import com.example.bookmanager.domain.User;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.data.domain.Sort;
+
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -15,7 +18,7 @@ class UserRepositoryTest {
 
     @Test
     void crud() {
-        userRepository.save(new User());
-        System.out.println(">>> "+userRepository.findAll());
+        List<User> users = userRepository.findAll(Sort.by(Sort.Direction.DESC, "name"));
+        users.forEach(System.out::println);
     }
 }
