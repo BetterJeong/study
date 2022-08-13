@@ -21,4 +21,9 @@ class UserRepositoryTest {
         List<User> users = userRepository.findAll(Sort.by(Sort.Direction.DESC, "name"));
         users.forEach(System.out::println);
     }
+
+    @Test
+    void select() {
+        System.out.println(userRepository.findByName("hi"));
+    }
 }
