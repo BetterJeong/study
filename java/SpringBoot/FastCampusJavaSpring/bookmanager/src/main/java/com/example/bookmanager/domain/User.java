@@ -1,5 +1,6 @@
 package com.example.bookmanager.domain;
 
+import ch.qos.logback.classic.db.names.ColumnName;
 import lombok.*;
 
 import javax.persistence.*;
@@ -10,6 +11,7 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
+@Table(name = "user", indexes = { @Index(columnList = "name") }, uniqueConstraints = {@UniqueConstraint(columnNames = {"email"})})
 public class User {
     @Id
     @GeneratedValue
