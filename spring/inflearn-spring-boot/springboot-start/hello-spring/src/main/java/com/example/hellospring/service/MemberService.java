@@ -21,6 +21,4 @@ public class MemberService {
         return member.getId();
     }
 
-    private void val
-
 }
