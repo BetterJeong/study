@@ -30,7 +30,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/나은정/Desktop/temp/study/spring/inflearn-spring-boot/springboot-start/hello-spring"
   }
 }]]></component>
   <component name="RunManager">
@@ -55,7 +56,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663719026888</updated>
-      <workItem from="1663719028174" duration="1876000" />
+      <workItem from="1663719028174" duration="2242000" />
+      <workItem from="1663722123638" duration="46000" />
     </task>
     <servers />
   </component>
