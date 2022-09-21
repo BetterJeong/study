@@ -7,20 +7,14 @@ public class Main {
         Point leftTop = new Point();
         Point rightBottom = new Point();
 
-        System.out.print("left-top 의 x 값 >> ");
-        leftTop.setX(sc.nextInt());
-        System.out.print("left-top 의 y 값 >> ");
-        leftTop.setY(sc.nextInt());
+        System.out.print("left-top 의 x, y 값 >> ");
+        leftTop.setXY(sc.nextInt(), sc.nextInt());
 
-        System.out.print("right-bottom 의 x 값 >> ");
-        rightBottom.setX(sc.nextInt());
-        System.out.print("right-bottom 의 y 값 >> ");
-        rightBottom.setY(sc.nextInt());
+        System.out.print("right-bottom 의 x, y 값 >> ");
+        rightBottom.setXY(sc.nextInt(), sc.nextInt());
 
         Rectangle rectangle = new Rectangle(leftTop, rightBottom);
 
-        System.out.println("직사각형의 넓이: " + rectangle.getArea());
-        System.out.println("직사각형의 둘레: " + rectangle.getRound());
-
+        rectangle.show();
     }
 }

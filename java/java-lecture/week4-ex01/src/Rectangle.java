@@ -19,4 +19,8 @@ public class Rectangle {
     public int getRound() {
         return (width + height) * 2;
     }
+
+    public void show() {
+        System.out.println("넓이: "+ getArea() + ", 둘레: " + getRound());
+    }
 }
