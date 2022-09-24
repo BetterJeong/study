@@ -10,12 +10,6 @@ public class Order {
         drink = null;
     }
 
-    public Order(int orderId, Person person, Drink drink) {
-        this.orderId = orderId;
-        this.person = person;
-        this.drink = drink;
-    }
-
     public int getOrderId() {
         return orderId;
     }
@@ -46,4 +40,5 @@ public class Order {
                 + person.getName() + "님 주문하신 "
                 + drink.getName() + " 나왔습니다~";
     }
+
 }
