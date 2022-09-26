@@ -95,7 +95,6 @@
         android:textSize="30dp"
         android:textStyle="bold"
         app:backgroundTint="#ffffff"
-        app:itemBackground="#ffffff"
         app:itemIconTint="@drawable/menu_selector_color"
         app:itemTextColor="@drawable/menu_selector_color"
         app:labelVisibilityMode="labeled"
