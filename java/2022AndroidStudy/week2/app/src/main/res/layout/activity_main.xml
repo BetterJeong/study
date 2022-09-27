@@ -66,6 +66,7 @@
         android:layout_width="480dp"
         android:layout_height="109dp"
         android:layout_gravity="center"
+        android:fontFamily="@font/pretend"
         android:textSize="30dp"
         android:textStyle="bold"
         app:backgroundTint="#ffffff"
@@ -283,5 +284,25 @@
         android:textSize="12dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView13" />
+
+    <TextView
+        android:id="@+id/editStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="285dp"
+        android:background="@drawable/edit_start"
+        android:fontFamily="@font/pretend"
+        android:paddingLeft="165dp"
+        android:paddingTop="21dp"
+        android:paddingRight="165dp"
+        android:paddingBottom="21dp"
+        android:text="편집 시작"
+        android:textColor="#ffffff"
+        android:textSize="21dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backGroundImage"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
