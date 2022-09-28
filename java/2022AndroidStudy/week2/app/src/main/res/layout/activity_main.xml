@@ -50,37 +50,16 @@
         android:id="@+id/recommend"
         android:layout_width="35dp"
         android:layout_height="26dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="32dp"
         android:fontFamily="@font/pretend"
         android:text="추천"
         android:textColor="#000000"
-        android:textSize="18dp"
+        android:textSize="17dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/backGroundImage"
         tools:ignore="MissingConstraints" />
-
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/under_menu"
-        android:layout_width="480dp"
-        android:layout_height="109dp"
-        android:layout_gravity="center"
-        android:fontFamily="@font/pretend"
-        android:textSize="80dp"
-        android:textStyle="bold"
-        app:backgroundTint="#ffffff"
-        app:itemIconTint="@drawable/menu_selector_color"
-        app:itemTextColor="@drawable/menu_selector_color"
-        app:labelVisibilityMode="labeled"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:menu="@menu/under_menu"
-        tools:ignore="MissingConstraints">
-
-    </com.google.android.material.bottomnavigation.BottomNavigationView>
 
     <TextView
         android:id="@+id/textView"
@@ -103,10 +82,10 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="47dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="76dp"
+        android:layout_width="54dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="74dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/backGroundImage"
         app:srcCompat="@drawable/epik" />
@@ -115,8 +94,8 @@
         android:id="@+id/imageView3"
         android:layout_width="43dp"
         android:layout_height="42dp"
-        android:layout_marginStart="154dp"
-        android:layout_marginTop="68dp"
+        android:layout_marginStart="166dp"
+        android:layout_marginTop="80dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/backGroundImage"
         app:srcCompat="@drawable/check01" />
@@ -125,7 +104,7 @@
         android:id="@+id/imageView8"
         android:layout_width="35dp"
         android:layout_height="37dp"
-        android:layout_marginTop="68dp"
+        android:layout_marginTop="80dp"
         android:layout_marginEnd="166dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/backGroundImage"
@@ -135,7 +114,7 @@
         android:id="@+id/imageView9"
         android:layout_width="42dp"
         android:layout_height="41dp"
-        android:layout_marginTop="68dp"
+        android:layout_marginTop="78dp"
         android:layout_marginEnd="54dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/backGroundImage"
@@ -145,8 +124,8 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="3dp"
         android:fontFamily="@font/pretend"
         android:text="NEW"
         android:textColor="#000000"
@@ -159,13 +138,13 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="76dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="5dp"
         android:fontFamily="@font/pretend"
         android:text="새로 만들기"
         android:textColor="#000000"
         android:textSize="12dp"
-        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
         tools:ignore="MissingConstraints" />
 
@@ -173,8 +152,8 @@
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="7dp"
-        android:layout_marginEnd="77dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="75dp"
         android:fontFamily="@font/pretend"
         android:text="화질 개선"
         android:textColor="#000000"
@@ -199,8 +178,8 @@
         android:id="@+id/imageView10"
         android:layout_width="29dp"
         android:layout_height="29dp"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="68dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="50dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         app:srcCompat="@drawable/layouts" />
@@ -209,9 +188,9 @@
         android:id="@+id/imageView11"
         android:layout_width="31dp"
         android:layout_height="29dp"
-        android:layout_marginStart="171dp"
-        android:layout_marginTop="68dp"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="53dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
         app:srcCompat="@drawable/paper" />
 
@@ -219,9 +198,9 @@
         android:id="@+id/imageView12"
         android:layout_width="33dp"
         android:layout_height="32dp"
-        android:layout_marginTop="68dp"
-        android:layout_marginEnd="166dp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView11"
         app:layout_constraintTop_toBottomOf="@+id/imageView8"
         app:srcCompat="@drawable/eraser" />
 
@@ -229,9 +208,9 @@
         android:id="@+id/imageView13"
         android:layout_width="30dp"
         android:layout_height="34dp"
-        android:layout_marginTop="56dp"
-        android:layout_marginEnd="63dp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="46dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView12"
         app:layout_constraintTop_toTopOf="@+id/textView9"
         app:srcCompat="@drawable/clicking" />
 
@@ -239,8 +218,8 @@
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="12dp"
         android:fontFamily="@font/pretend"
         android:text="레이아웃"
         android:textColor="#000000"
@@ -252,8 +231,8 @@
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="73dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="12dp"
         android:fontFamily="@font/pretend"
         android:text="일괄 편집"
         android:textColor="#000000"
@@ -265,13 +244,13 @@
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="59dp"
         android:layout_marginTop="11dp"
-        android:layout_marginEnd="55dp"
         android:fontFamily="@font/pretend"
         android:text="부분 지우개"
         android:textColor="#000000"
         android:textSize="12dp"
-        app:layout_constraintEnd_toStartOf="@+id/textView13"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
         app:layout_constraintTop_toBottomOf="@+id/imageView12" />
 
     <TextView
@@ -295,16 +274,80 @@
         android:background="@drawable/edit_start"
         android:fontFamily="@font/pretend"
         android:paddingLeft="165dp"
-        android:paddingTop="21dp"
+        android:paddingTop="22dp"
         android:paddingRight="165dp"
-        android:paddingBottom="21dp"
+        android:paddingBottom="22dp"
         android:text="편집 시작"
         android:textColor="#ffffff"
-        android:textSize="21dp"
+        android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/backGroundImage"
         tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:layout_width="483dp"
+        android:layout_height="106dp"
+        android:background="@color/white"
+        android:elevation="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/pretend"
+                android:paddingLeft="64dp"
+                android:paddingTop="16dp"
+                android:text="편집"
+                android:textColor="#161616"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:paddingTop="2dp"
+                android:layout_height="16dp"
+                app:srcCompat="@drawable/line" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/pretend"
+            android:paddingLeft="55dp"
+            android:paddingTop="16dp"
+            android:text="템플릿"
+            android:textColor="#9c9c9c"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/pretend"
+            android:paddingLeft="55dp"
+            android:paddingTop="16dp"
+            android:text="스토어"
+            android:textColor="#9c9c9c"
+            android:textSize="19dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
