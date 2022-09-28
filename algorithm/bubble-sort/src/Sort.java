@@ -13,7 +13,7 @@ public class Sort {
                     arr[j] = arr[j+1];
                     arr[j+1] = tmp;
                 }
-                System.out.println("현재 배열 상태: "+ Arrays.toString(arr));
+                System.out.println((i+1)+"회 반복 중 "+ (j+1) + "번째 비교: " + Arrays.toString(arr));
             }
         }
     }
