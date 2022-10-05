@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39d6cef1-0bd1-47bc-8279-8432a8e0f818" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ACafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BCafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Size.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../order-example/order/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../order-example/order/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -31,18 +40,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/git/study/java/2022JavaStudy/week5-example/order",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "File.Encoding"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/git/study/java/2022JavaStudy/week4-example/order&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -69,8 +78,9 @@
       <workItem from="1663722123638" duration="46000" />
       <workItem from="1663946943451" duration="3198000" />
       <workItem from="1664034018772" duration="102000" />
-      <workItem from="1664890209081" duration="340000" />
-      <workItem from="1664890560976" duration="7000" />
+      <workItem from="1664890569928" duration="101000" />
+      <workItem from="1664890701959" duration="1368000" />
+      <workItem from="1664937608800" duration="4943000" />
     </task>
     <servers />
   </component>
