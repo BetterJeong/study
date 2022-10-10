@@ -24,5 +24,8 @@
     <ClCompile Include="thread.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="search.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
