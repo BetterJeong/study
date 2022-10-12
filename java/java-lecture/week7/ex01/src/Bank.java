@@ -17,7 +17,7 @@ public class Bank {
             account.check();
             System.out.println("출금 금액: "+account.withdraw(10000));
             account.check();
-            
+
             if (account instanceof CheckingTrafficCardAccount) {
                 CheckingTrafficCardAccount checkingTrafficCardAccount = (CheckingTrafficCardAccount) account;
                 System.out.println("출금 금액: "+checkingTrafficCardAccount.payTrafficCard("234234", 100));
