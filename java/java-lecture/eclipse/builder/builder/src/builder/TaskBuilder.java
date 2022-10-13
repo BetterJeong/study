@@ -2,15 +2,16 @@ package builder;
 
 import java.util.Date;
 
-public class Task {
-	
+public class TaskBuilder {
+
 	private final long id;
 	private String summary = "";
 	private String description = "";
 	private boolean done = false;
 	private Date dueDate;
 	
-	public Task(long id, String summary, String description, boolean done, Date dueDate) {
+	/*
+	public TaskBuilder(long id, String summary, String description, boolean done, Date dueDate) {
 		super();
 		this.id = id;
 		this.summary = summary;
@@ -18,40 +19,30 @@ public class Task {
 		this.done = done;
 		this.dueDate = dueDate;
 	}
-	public String getSummary() {
-		return summary;
+	*/
+	
+	public TaskBuilder(long id) {
+		this.id = id;
 	}
+	
 	public void setSummary(String summary) {
 		this.summary = summary;
 	}
-	public String getDescription() {
-		return description;
-	}
+	
 	public void setDescription(String description) {
 		this.description = description;
 	}
-	public boolean isDone() {
-		return done;
-	}
+	
 	public void setDone(boolean done) {
 		this.done = done;
 	}
-	public Date getDueDate() {
-		return dueDate;
-	}
+	
 	public void setDueDate(Date dueDate) {
 		this.dueDate = dueDate;
 	}
-	public long getId() {
-		return id;
-	}
-	
-	@Override
-	public String toString() {
-		return "Task [id=" + id + ", summary=" + summary + ", description=" + description + ", done=" + done
-				+ ", dueDate=" + dueDate + "]";
-	}
 
-	
+	public Task build() {
+		return new Task(id, summary, description, done, dueDate);
+	}
 	
 }
