@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\CollisionEvent.cs" />
     <Compile Include="Assets\Movement2D.cs" />
+    <Compile Include="Assets\NewBehaviourScript.cs" />
     <Compile Include="Assets\TriggerEvent.cs" />
   </ItemGroup>
   <ItemGroup>
