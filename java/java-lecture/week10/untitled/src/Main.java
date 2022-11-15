@@ -1,6 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-        RegMember regMember = new RegMember();
+        System.out.println("Hello world!");
     }
-
 }
