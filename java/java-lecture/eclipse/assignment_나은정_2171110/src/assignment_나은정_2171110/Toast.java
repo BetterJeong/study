@@ -1,3 +1,5 @@
+package assignment_나은정_2171110;
+
 public class Toast {
 
     StringBuffer name;
@@ -7,7 +9,21 @@ public class Toast {
         this.name = new StringBuffer();
         this.kcal = 0;
     }
+    
+    public void serve() {
+    	getName();
+    	getKcal();
+        System.out.println();
+    }
 
+    private void getName() {
+    	System.out.println("주문한 토스트 : "+name);
+    }
+    
+    private void getKcal() {
+    	System.out.println("칼로리 : "+kcal+"Kcal");
+    }
+    
     public void addTopping(ToppingDecorator toppingDecorator) {
         addName(toppingDecorator.Name());
         addKcal(toppingDecorator.Kcal());
@@ -21,9 +37,5 @@ public class Toast {
         this.kcal += kcal;
     }
 
-    public void serve() {
-        System.out.println("주문한 토스트 : "+name);
-        System.out.println("칼로리 : "+kcal+"Kcal");
-        System.out.println();
-    }
+
 }
