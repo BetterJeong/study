@@ -56,9 +56,12 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ObjectSpawner.cs" />
-    <Compile Include="Assets\Movement2D.cs" />
     <Compile Include="Assets\PlayerController.cs" />
+    <Compile Include="Assets\DestroySample.cs" />
+    <Compile Include="Assets\PositionAutoDestroyer.cs" />
+    <Compile Include="Assets\Movement2D.cs" />
+    <Compile Include="Assets\ObjectSpawner.cs" />
+    <Compile Include="Assets\Wall.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
