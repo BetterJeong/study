@@ -58,10 +58,10 @@
   <ItemGroup>
     <Compile Include="Assets\PlayerController.cs" />
     <Compile Include="Assets\DestroySample.cs" />
+    <Compile Include="Assets\Wall.cs" />
     <Compile Include="Assets\PositionAutoDestroyer.cs" />
     <Compile Include="Assets\Movement2D.cs" />
     <Compile Include="Assets\ObjectSpawner.cs" />
-    <Compile Include="Assets\Wall.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
