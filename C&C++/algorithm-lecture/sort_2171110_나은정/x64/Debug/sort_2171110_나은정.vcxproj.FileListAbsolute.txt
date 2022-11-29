@@ -1,1 +1,2 @@
 C:\better\HSU\2학년 2학기\알고리즘\11주차\sort_2171110_나은정\x64\Debug\sort_2171110_나은정.exe
+C:\git\study\C&C++\algorithm-lecture\sort_2171110_나은정\x64\Debug\sort_2171110_나은정.exe

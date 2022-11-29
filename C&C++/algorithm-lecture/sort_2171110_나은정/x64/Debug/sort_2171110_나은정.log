@@ -1,6 +1,6 @@
 ﻿  main.c
-C:\better\HSU\2학년 2학기\알고리즘\11주차\sort_2171110_나은정\main.c(53,9): warning C4013: 'strcmp'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
-C:\better\HSU\2학년 2학기\알고리즘\11주차\sort_2171110_나은정\main.c(29,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\better\HSU\2학년 2학기\알고리즘\11주차\sort_2171110_나은정\main.c(46,4): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\better\HSU\2학년 2학기\알고리즘\11주차\sort_2171110_나은정\main.c(51,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  sort_2171110_나은정.vcxproj -> C:\better\HSU\2학년 2학기\알고리즘\11주차\sort_2171110_나은정\x64\Debug\sort_2171110_나은정.exe
+C:\git\study\C&C++\algorithm-lecture\sort_2171110_나은정\main.c(69,9): warning C4013: 'strcmp'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\git\study\C&C++\algorithm-lecture\sort_2171110_나은정\main.c(45,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\study\C&C++\algorithm-lecture\sort_2171110_나은정\main.c(62,4): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\git\study\C&C++\algorithm-lecture\sort_2171110_나은정\main.c(67,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  sort_2171110_나은정.vcxproj -> C:\git\study\C&C++\algorithm-lecture\sort_2171110_나은정\x64\Debug\sort_2171110_나은정.exe
