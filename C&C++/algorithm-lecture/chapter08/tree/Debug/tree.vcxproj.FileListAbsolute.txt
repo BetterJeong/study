@@ -1,1 +1,0 @@
-C:\git\study\C&C++\algorithm-lecture\chapter08\tree\Debug\tree.exe

@@ -1,4 +1,0 @@
-﻿  ex01.c
-C:\git\study\C&C++\algorithm-lecture\week3-ext\week3-ext\ex01.c(140,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\git\study\C&C++\algorithm-lecture\week3-ext\week3-ext\ex01.c(145,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  week3-ext.vcxproj -> C:\git\study\C&C++\algorithm-lecture\week3-ext\Debug\week3-ext.exe
