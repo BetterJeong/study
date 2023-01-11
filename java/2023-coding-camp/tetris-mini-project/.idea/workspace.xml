@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="abc742c6-d6a8-41b6-96bb-618594024d19" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tetris-mini-project/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tetris-mini-project/Service/GameManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tetris-mini-project/gui/GamePanel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tetris-mini-project/gui/GamePanel$GameThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tetris-mini-project/gui/GamePanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tetris-mini-project/gui/ScorePanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tetris-mini-project/gui/TetrisFrame$KeyListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tetris-mini-project/gui/TetrisFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tetris-mini-project/gui/TitlePanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tetris-mini-project/model/Block.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tetris-mini-project/model/BlockType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tetris-mini-project/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/GameManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/GamePanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/ScorePanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/TetrisFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gui/TitlePanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Block.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/BlockType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tetris-mini-project.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2K7t0XNUx7OQUsl6mcHqaanlBHz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/git/tetris-mini-project",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Spring EL"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="gui" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="tetris-mini-project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="abc742c6-d6a8-41b6-96bb-618594024d19" name="Changes" comment="" />
+      <created>1673337227516</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673337227516</updated>
+      <workItem from="1673337230058" duration="7544000" />
+      <workItem from="1673349980133" duration="6923000" />
+      <workItem from="1673357815517" duration="1501000" />
+      <workItem from="1673359356596" duration="16342000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
