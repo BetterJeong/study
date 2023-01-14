@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;builder.TestBuilder&apos; to &apos;TaskBuilder&apos;&#x0D;&#x0A;- Original project: &apos;builder&apos;&#x0D;&#x0A;- Original element: &apos;builder.TestBuilder&apos;&#x0D;&#x0A;- Renamed element: &apos;builder.TaskBuilder&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;TestBuilder&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;builder{TestBuilder.java[TestBuilder" matchStrategy="1" name="TaskBuilder" qualified="false" references="true" similarDeclarations="false" stamp="1665661538530" textual="false" version="1.0"/>
+</session>
