@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39d6cef1-0bd1-47bc-8279-8432a8e0f818" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../android/2022-android-study/week2/task02/app/src/main/res/drawable/main.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week3-example/phone/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3-example/phone/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +39,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/git/study/java/2022JavaStudy/week5-example/order",
+    "last_opened_file_path": "C:/git/study/java/2022JavaStudy/week3-example/Subject",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -71,6 +74,7 @@
       <workItem from="1664034018772" duration="102000" />
       <workItem from="1664890209081" duration="340000" />
       <workItem from="1664890560976" duration="7000" />
+      <workItem from="1674627501907" duration="915000" />
     </task>
     <servers />
   </component>
