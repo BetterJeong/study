@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">task03</string>
+    <string name="animal_wiki">A game in the Animal Crossing series that was released simultaneously worldwide on Nintendo Switch on March 20, 2020. The abbreviation is Modongsup in Korea, Atsumori in Japan, and it is also called ACNH (Animal Crossing New Horizons) for short in English-speaking countries.</string>
+    <string name="input_your_name">Input your name.</string>
+    <string name="dog">Dog</string>
+    <string name="cat">Cat</string>
+    <string name="button">Button</string>
+</resources>

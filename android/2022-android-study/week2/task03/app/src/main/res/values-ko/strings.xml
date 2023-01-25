@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">task03</string>
+    <string name="animal_wiki">2020년 3월 20일 Nintendo Switch로 전 세계 동시 발매된 동물의 숲 시리즈의 게임. 약칭은 한국에서는 모동숲, 일본에서는 아츠모리(あつ森)이며, 영미권 국가에서는 ACNH(Animal Crossing New Horizons)라고 줄여서 부르기도 한다.</string>
+    <string name="input_your_name">이름을 입력하세요.</string>
+    <string name="dog">개</string>
+    <string name="cat">고양이</string>
+    <string name="button">버튼</string>
+</resources>
