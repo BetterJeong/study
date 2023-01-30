@@ -7,7 +7,6 @@ public class Player {
         level.showLevelMessage();
     }
 
-
     public PlayerLevel getLevel() {
         return level;
     }
