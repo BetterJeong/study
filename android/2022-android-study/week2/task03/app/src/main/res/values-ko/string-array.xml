@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="planets">
+        <item>지구</item>
+        <item>화성</item>
+    </string-array>
+</resources>

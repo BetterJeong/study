@@ -16,13 +16,13 @@ class MainActivity : AppCompatActivity() {
 
         binding.button2.setOnClickListener {
             binding.textView2.text = binding.editTextTextPersonName.text
-            val pet ="Dog: ${binding.radioDog.isChecked}, Cat: ${binding.radioCat.isChecked}"
-            Snackbar.make(it, pet, Snackbar.LENGTH_SHORT).show()
+//            val pet ="Dog: ${binding.radioDog.isChecked}, Cat: ${binding.radioCat.isChecked}"
+//            Snackbar.make(it, pet, Snackbar.LENGTH_SHORT).show()
         }
 
-        when (binding.radioGroup.checkedRadioButtonId) {
-            R.id.radioDog -> print("Dog checked")
-            R.id.radioCat -> print("Cat checked")
-        }
+//        when (binding.radioGroup.checkedRadioButtonId) {
+//            R.id.radioDog -> print("Dog checked")
+//            R.id.radioCat -> print("Cat checked")
+//        }
     }
 }
