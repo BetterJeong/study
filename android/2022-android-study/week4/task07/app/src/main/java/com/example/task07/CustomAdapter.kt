@@ -1,17 +1,23 @@
 package com.example.task07
 
-import android.content.ClipData.Item
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.task07.databinding.ItemLayoutBinding
 
-class CustomAdapter : RecyclerView.Adapter<CustomAdapter.ViewHolder>() {
+class CustomAdapter(private val viewModel: MyViewModel) : RecyclerView.Adapter<CustomAdapter.ViewHolder>() {
 
-    inner class ViewHolder(binding: ItemLayoutBinding) : RecyclerView.ViewHolder(binding.root) {
-        fun setContents(post: Int) {
+    inner class ViewHolder(private val binding: ItemLayoutBinding) : RecyclerView.ViewHolder(binding.root) {
+        fun setContents(pos: Int) {
+            with (viewModel.items[pos]) {
+                binding.textView.text = name
+                binding.textView2.text = phone
+            }
 
+            binding.root.setOnLongClickListener {
+                viewModel.longClickItem = pos
+                false
+            }
         }
     }
 
@@ -27,7 +33,5 @@ class CustomAdapter : RecyclerView.Adapter<CustomAdapter.ViewHolder>() {
         holder.setContents(position)
     }
 
-    override fun getItemCount(): Int {
-        TODO("Not yet implemented")
-    }
+    override fun getItemCount() = viewModel.items.size
 }
