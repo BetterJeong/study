@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         val binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.Like.setOnClickListener {
+        binding.button.setOnClickListener {
             println("Like clicked!")
         }
     }
