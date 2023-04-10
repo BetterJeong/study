@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">task02</string>
+    <string name="android_text">Android Programming</string>
+    <string name="dog">dog</string>
+    <string name="cat">cat</string>
+    <string name="button">button</string>
+</resources>

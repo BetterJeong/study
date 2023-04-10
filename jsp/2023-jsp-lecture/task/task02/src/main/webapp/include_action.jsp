@@ -9,7 +9,7 @@
 include_action.jsp 에서 출력한 메시지 입니다.<BR>
 
 <jsp:include page="footer.jsp">
-	<jsp:param name="start" value="1" />
+	<jsp:param name="start" value="10" />
 	<jsp:param name="last" value="100" />
 </jsp:include>
 </BODY></HTML>	
