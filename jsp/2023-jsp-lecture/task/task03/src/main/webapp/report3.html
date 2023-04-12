@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>JSP FORM 처리</title>
+  </head>
+  <body>
+    JSP FORM 처리
+  	<table border="1" width = "500">
+      <form action="report3.jsp" method="post">
+        <tr>
+          <td>
+            이름: <input type="text" name="name" required>
+            <br><br>
+            암호: <input type="password" name="비밀번호" required>
+          </td>
+          <td>
+            성별<br><br>
+            <input type="radio" name ="성별" value="남자" required>남자
+            <input type="radio" name ="성별" value="여자">여자
+            <br><br><br>
+            좋아하는 스포츠는?<br><br>
+            <input type="checkbox" name="스포츠" value="야구">야구<br><br>
+            <input type="checkbox" name="스포츠" value="축구">축구<br><br>
+            <input type="checkbox" name="스포츠" value="농구">농구<br><br>
+            <input type="checkbox" name="스포츠" value="배구">배구<br><br>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            좋아하는 과일은? 
+            <select name="과일" size="4" multiple required>
+              <option value="바나나">바나나</option>
+              <option value="사과">사과</option>
+              <option value="포도">포도</option>
+              <option value="복숭아">복숭아</option>
+            </select><br><br>
+            좋아하는 음악은? 
+            <select name="음악" required>
+              <option value="클래식">클래식</option>
+              <option value="재즈">재즈</option>
+              <option value="팝송">팝송</option>
+              <option value="발라드">발라드</option>
+            </select>
+          </td>
+          <td>
+            기타 제안 사항<br><br>
+            <textarea name="제안사항" cols="30" rows="10" required></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input name="전송" type="submit" value="전송">
+            <input name="취소" type="reset" value="취소">
+          </td>
+        </tr>
+      </form>
+    </table>
+  </body>
+</html>
