@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="enter_number_only">Enter number only</string>
+    <string name="start_second_activity">start second activity</string>
+</resources>
