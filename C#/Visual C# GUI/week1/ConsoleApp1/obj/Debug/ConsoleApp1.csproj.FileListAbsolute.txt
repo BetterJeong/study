@@ -1,0 +1,8 @@
+C:\git\study\C#\Visual C# GUI\week1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\git\study\C#\Visual C# GUI\week1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\git\study\C#\Visual C# GUI\week1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\git\study\C#\Visual C# GUI\week1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+C:\git\study\C#\Visual C# GUI\week1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.SuggestedBindingRedirects.cache
+C:\git\study\C#\Visual C# GUI\week1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\git\study\C#\Visual C# GUI\week1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\git\study\C#\Visual C# GUI\week1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

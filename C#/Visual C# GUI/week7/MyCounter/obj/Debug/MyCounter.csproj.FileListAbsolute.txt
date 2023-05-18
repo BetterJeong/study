@@ -1,0 +1,11 @@
+C:\git\study\C#\Visual C# GUI\week7\MyCounter\bin\Debug\MyCounter.exe.config
+C:\git\study\C#\Visual C# GUI\week7\MyCounter\bin\Debug\MyCounter.exe
+C:\git\study\C#\Visual C# GUI\week7\MyCounter\bin\Debug\MyCounter.pdb
+C:\git\study\C#\Visual C# GUI\week7\MyCounter\obj\Debug\MyCounter.csproj.AssemblyReference.cache
+C:\git\study\C#\Visual C# GUI\week7\MyCounter\obj\Debug\MyCounter.csproj.SuggestedBindingRedirects.cache
+C:\git\study\C#\Visual C# GUI\week7\MyCounter\obj\Debug\MyCounter.Properties.Resources.resources
+C:\git\study\C#\Visual C# GUI\week7\MyCounter\obj\Debug\MyCounter.csproj.GenerateResource.cache
+C:\git\study\C#\Visual C# GUI\week7\MyCounter\obj\Debug\MyCounter.csproj.CoreCompileInputs.cache
+C:\git\study\C#\Visual C# GUI\week7\MyCounter\obj\Debug\MyCounter.exe
+C:\git\study\C#\Visual C# GUI\week7\MyCounter\obj\Debug\MyCounter.pdb
+C:\git\study\C#\Visual C# GUI\week7\MyCounter\obj\Debug\MyCounter.Form1.resources
