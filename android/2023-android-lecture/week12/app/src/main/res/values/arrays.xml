@@ -1,0 +1,9 @@
+<resources>
+
+    <string-array name="fontSize">
+        <item>small</item>
+        <item>medium</item>
+        <item>big</item>
+    </string-array>
+
+</resources>
