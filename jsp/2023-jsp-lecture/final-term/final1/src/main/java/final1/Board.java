@@ -8,8 +8,6 @@ public class Board {
 	private String board_id;
 	private String board_date;
 	private String board_content;
-	private String board_pw;
-
 	
 	public Board() {
 		
@@ -61,14 +59,6 @@ public class Board {
 
 	public void setBoard_content(String board_content) {
 		this.board_content = board_content;
-	}
-
-	public String getBoard_pw() {
-		return board_pw;
-	}
-
-	public void setBoard_pw(String board_pw) {
-		this.board_pw = board_pw;
 	}
 	
 	

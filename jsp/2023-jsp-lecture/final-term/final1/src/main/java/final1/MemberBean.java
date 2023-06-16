@@ -16,7 +16,7 @@ public class MemberBean {
 	ResultSet rs = null;
 	
 	String jdbc_driver = "com.mysql.cj.jdbc.Driver";
-	String jdbc_url = "jdbc:mysql://127.0.0.1:3306/jspdb?characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Seoul";
+	String jdbc_url = "jdbc:mysql://127.0.0.1:3306/jspdb?useSSL=false&serverTimezone=Asia/Seoul";
 	
 	public ArrayList<Member> getMembers() {
 		return members;
@@ -121,10 +121,10 @@ public class MemberBean {
 		
 		try {
 			pstmt = conn.prepareStatement(sql);
+			rs = pstmt.executeQuery();
 			pstmt.setString(1, id);
 			pstmt.setString(2, pw);
 			pstmt.executeQuery();
-			rs = pstmt.executeQuery();
 			
 			if (rs.next()) {
 				return false;
@@ -146,18 +146,18 @@ public class MemberBean {
 		String sql = "select m_name from member2 where m_id = ?";
 		
 		try {
-			//conn.setAutoCommit(false);
+			conn.setAutoCommit(false);
 			pstmt = conn.prepareStatement(sql);
-			pstmt.setString(1, id);
 			rs = pstmt.executeQuery();
+			pstmt.setString(1, id);
 			if (rs.next()) {
 				m_name = rs.getString("m_name");
 			}
 			rs.close();
-			//conn.commit();
+			conn.commit();
 		} catch (SQLException e) {
 			e.printStackTrace();
-			//conn.rollback();
+			conn.rollback();
 		} finally {
 			disconnect();
 		}

@@ -12,8 +12,8 @@ public class BoardBean {
 	PreparedStatement pstmt = null;
 	ResultSet rs = null;
 	
-	String jdbc_driver = "com.mysql.cj.jdbc.Driver";
-	String jdbc_url = "jdbc:mysql://127.0.0.1:3306/jspdb?characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Seoul";
+	String jdbc_driver = "con.mysql.cj.jdbc.Driver";
+	String jdbc_url = "jdbc:mysql://127.0.0.1:3306/jspdb?useSSL=false&serverTimezone=Asia/Seoul";
 	
 	void connect() {
 		try {
@@ -45,7 +45,7 @@ public class BoardBean {
 	public boolean insertBoard(Board board) throws SQLException {
 		connect();
 		
-		String sql = "INSERT INTO board(board_title, board_name, board_id, board_date, board_content, board_pw) VALUES(?, ?, ?, ?, ?, ?)";
+		String sql = "INSERT INTO board(board_title, board_name, board_id, board_date, board_content) VALUES(?, ?, ?, ?, ?)";
 		try {
 			conn.setAutoCommit(false);
 			pstmt = conn.prepareStatement(sql);
@@ -54,7 +54,6 @@ public class BoardBean {
 			pstmt.setString(3, board.getBoard_id());
 			pstmt.setString(4, board.getBoard_date());
 			pstmt.setString(5, board.getBoard_content());
-			pstmt.setString(6, board.getBoard_pw());
 			pstmt.executeUpdate();
 			conn.commit();
 		} catch (SQLException e) {
@@ -70,9 +69,9 @@ public class BoardBean {
 	public Board getBoard(int board_num) throws SQLException {
 		connect();
 		Board board = null;
-		String sql = "select * from board where board_num=?";
+		String sql = "select * from board where board_num? ";
 		try {
-			// conn.setAutoCommit(false);
+			conn.setAutoCommit(false);
 			pstmt=conn.prepareStatement(sql);
 			pstmt.setInt(1, board_num);
 			ResultSet rs=pstmt.executeQuery();
@@ -84,13 +83,12 @@ public class BoardBean {
 				board.setBoard_name(rs.getString("board_name"));
 				board.setBoard_date(rs.getString("board_date"));
 				board.setBoard_content(rs.getString("board_content"));
-				board.setBoard_pw(rs.getString("board_pw"));
 			}
 			rs.close();
-			// conn.commit();
+			conn.commit();
 		} catch (SQLException e) {
 			e.printStackTrace();
-			// conn.rollback();
+			conn.rollback();
 		}
 		finally {
 			disconnect();
@@ -114,8 +112,6 @@ public class BoardBean {
 				board.setBoard_title(rs.getString("board_title"));
 				board.setBoard_name(rs.getString("board_name"));
 				board.setBoard_date(rs.getString("board_date"));
-				board.setBoard_content(rs.getString("board_content"));
-				board.setBoard_content(rs.getString("board_pw"));
 				boards.add(board);
 			}
 			rs.close();
@@ -158,14 +154,11 @@ public class BoardBean {
 		try {
 			conn.setAutoCommit(false);
 			pstmt = conn.prepareStatement(sql);
-			
 			pstmt.setString(1, board.getBoard_title());
 			pstmt.setString(2, board.getBoard_date());
 			pstmt.setString(3, board.getBoard_content());
 			pstmt.setInt(4, board.getBoard_num());
-			
 			pstmt.executeUpdate();
-			
 			conn.commit();
 		} catch (SQLException e) {
 			e.printStackTrace();
